@@ -31,23 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `matriz_dados` (
   `id` int(100) NOT NULL,
   `material` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
-  `description` text COLLATE utf8_unicode_ci NOT NULL,
-  `seq` int(10) DEFAULT NULL,
-  `type` varchar(5) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `MRP_type` varchar(5) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `cycle_time` int(10) DEFAULT NULL,
-  `coil` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `die` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
-  `family` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `group1` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `die_change_time` int(10) DEFAULT NULL,
-  `fam_change_time` int(10) DEFAULT NULL,
-  `into_fam_time` int(10) DEFAULT NULL,
-  `group_change_time` int(10) DEFAULT NULL,
-  `WC1` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `WC2` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `WC3` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `WC4` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL
+  `die` varchar(200) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
